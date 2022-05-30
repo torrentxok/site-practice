@@ -232,8 +232,8 @@ body{
     box-shadow: none;
 }
 
-.sheet_column_img:hover{
-}
+/* .sheet_column_img:hover{
+} */
 
 .sheet_column_text{
     width: 100%;
@@ -280,8 +280,8 @@ body{
 
 
 
-.products_blocks{
-}
+/* .products_blocks{
+} */
 
 .products{
     display: flex;
@@ -316,8 +316,8 @@ body{
     animation-timing-function: ease;
 } */
 
-.dates_img{   
-}
+/* .dates_img{   
+} */
 
 .dates_img > img {
     display: block;
@@ -372,8 +372,8 @@ body{
     animation-timing-function: ease;
 } */
 
-.date_syrup_img{
-}
+/* .date_syrup_img{
+} */
 
 .date_syrup_img > img{
     display: block;
@@ -420,8 +420,8 @@ body{
 
 
 
-.empty_block {
-}
+/* .empty_block {
+} */
 .block {
     display: flex;
     height: 100px;
@@ -433,8 +433,8 @@ body{
 
 
 
-.history{
-}
+/* .history{
+} */
 
 .history_container {
     display: flex;
@@ -514,8 +514,8 @@ body{
 
 
 
-footer{
-}
+/* footer{
+} */
 
 .footer_container{
     display: flex;
@@ -566,8 +566,8 @@ footer{
     .column_section{
         flex-direction: column;
     }
-    .second_section{
-    }
+    /* .second_section{
+    } */
     .main_logo{
         padding: 10px;
     }
@@ -575,11 +575,11 @@ footer{
         height: 50px;
     }
 
-    .main_menu > ul{
-    }
+    /* .main_menu > ul{
+    } */
     
-    .main_menu > ul > li{
-    }
+    /* .main_menu > ul > li{
+    } */
     
     .main_menu > ul > li > a{
         padding: 5px 12px 5px 12px;
@@ -637,8 +637,8 @@ footer{
         
     }
     
-    .dates_main_text{
-    }
+    /* .dates_main_text{
+    } */
 
     .date_syrup{
         width: 80%;
