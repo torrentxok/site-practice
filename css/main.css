@@ -488,7 +488,7 @@ body{
     margin: 20px 0 20px 0;
 }
 
-.button > a{
+.button > .button_text > a{
     text-decoration: none;
 }
 
@@ -496,7 +496,7 @@ body{
     display: flex;
 }
 
-.button_text > p{
+.button_text > a > p{
     color: #C18129;
     font-size: 20px;
     padding: 20px 32px;
@@ -506,10 +506,10 @@ body{
     transition: 0.7s;
 }
 
-/* .button_text > p:hover{
+.button_text > a > p:hover{
     background-color: #C18129;
     color: #ffffff;
-} */
+}
 
 
 
