@@ -1,0 +1,317 @@
+@import url(reset.css);
+@font-face {
+    font-family: NunitoSans-Regular;
+    src: url(../resource/font/NunitoSans-Regular.ttf);
+}
+
+html, body{
+    font-family: NunitoSans-Regular;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+}
+
+.first_section{
+    display: flex;
+    padding: 5px 40px 5px 40px;
+    background-color: #C18129;
+}
+
+.social_network{
+    display: flex;
+    width: 50%;
+}
+
+.social_icon{
+    width: 29px;
+    height: 29px;
+    margin: 0px 10px 0px 0px;
+}
+
+.social_icon_img{
+    display: block;
+    padding: 2.5px;
+}
+
+.map{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.coordinate_link{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.coordinate_link:visited{
+    text-decoration: none;
+}
+
+.coordinate_link:hover{
+    opacity: .7;
+}
+
+.coordinate_dot_block{
+    width: 29px;
+    height: 29px;
+    margin: 0px 10px 0px 0px;
+}
+
+.coordinate_dot{
+    display: block;
+    padding: 2.5px;
+}
+
+.coordinate_block{
+    display: block;
+    height: 29px;
+}
+
+.coordinate{
+    display: block;
+    margin: 0;
+    line-height: 29px;
+}
+
+.second_section{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    height: 100px;
+}
+
+.main_logo{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    padding: 21px;
+}
+
+.main_menu{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.main_menu > ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu > ul > li{
+    display: inline-flex;
+    align-items: center;
+}
+
+.main_menu > ul > li > a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    padding: 13px 13px 13px 13px;
+    transition: 0.5s;
+}
+
+.main_menu > ul > li > a:hover{
+    color: #C18129;
+}
+
+
+
+
+.main_banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../resource/contact/8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_banner > p{
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    padding: 300px 0 300px 0;
+    margin: 0px;
+}
+
+
+
+
+.two_column{
+    display: flex;
+    width: 70%;
+    margin: 100px auto 150px auto;
+}
+
+.column_1{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.factory_label{
+    font-size: 25px;
+    color: #4f555a;
+    margin-bottom: 25px;
+}
+
+.factory_address{
+    font-size: 25px;
+    color: #4f555a;
+    margin-bottom: 25px;
+}
+
+.factory_contact{
+    font-size: 25px;
+    color: #4f555a;
+    margin-bottom: 25px;
+}
+
+.main_social_network{
+    display: flex;
+    flex-direction: row;
+}
+
+.main_social_icon{
+    border: 3px solid #C18129;
+    background-color: #c18129;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+    transition: 0.5s;
+}
+
+.main_social_icon:hover{
+    background-color: rgba(193, 129, 41, 0.5);
+    border-color: rgba(193, 129, 41, 0.5);
+}
+
+.column_2{
+    display: flex;
+    width: 50%;
+}
+
+
+
+
+.industries_text{
+    text-align: center;
+    font-size: 20px;
+}
+
+.industries_img{
+    margin: 10px 5% 100px 5%;
+}
+
+.industries_img > img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.catalog{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 240, 220, 0.7), rgba(193, 129, 41, 0.7)), url(../resource/contact/al-barkah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 0 100px 0;
+}
+
+.catalog_img{
+    width: 40%;
+    height: auto;
+}
+
+.catalog_img > img{
+    width: 100%;
+    height: auto;
+}
+
+.catalog_main_text{
+    padding: 100px 0 0 0;
+}
+
+.catalog_label{
+    width: 80%;
+    color: #000000;
+    font-size: 30px;
+    margin: 0 auto 20px auto;
+}
+
+.catalog_text{
+    width: 80%;
+    color: #4f555a;
+    font-size: 25px;
+    margin: 0 auto 60px auto;
+}
+
+.catalog_button{
+    display: flex;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.catalog_button > p{
+    color: #000000;
+    font-size: 20px;
+    border: 3px solid #C18129;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    transition: 0.5s;
+}
+
+.catalog_button > p:hover{
+    background-color: #c18129;
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex: 1 1 auto;
+    background-image: url(../resource/main/image12.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+}
+
+.footer_logo{
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 150px;
+}
+
+.address{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.address > p{
+    margin: 0 0 10px 0;
+}
+
+.address_text{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.address_text > p{
+    margin: 0px;
+}

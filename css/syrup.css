@@ -1,0 +1,287 @@
+@import url(reset.css);
+@font-face {
+    font-family: NunitoSans-Regular;
+    src: url(../resource/font/NunitoSans-Regular.ttf);
+}
+
+html, body{
+    font-family: NunitoSans-Regular;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+}
+
+.first_section{
+    display: flex;
+    padding: 5px 40px 5px 40px;
+    background-color: #C18129;
+}
+
+.social_network{
+    display: flex;
+    width: 50%;
+}
+
+.social_icon{
+    width: 29px;
+    height: 29px;
+    margin: 0px 10px 0px 0px;
+}
+
+.social_icon_img{
+    display: block;
+    padding: 2.5px;
+}
+
+.map{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.coordinate_link{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.coordinate_link:visited{
+    text-decoration: none;
+}
+
+.coordinate_link:hover{
+    opacity: .7;
+}
+
+.coordinate_dot_block{
+    width: 29px;
+    height: 29px;
+    margin: 0px 10px 0px 0px;
+}
+
+.coordinate_dot{
+    display: block;
+    padding: 2.5px;
+}
+
+.coordinate_block{
+    display: block;
+    height: 29px;
+}
+
+.coordinate{
+    display: block;
+    margin: 0;
+    line-height: 29px;
+}
+
+.second_section{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    height: 100px;
+}
+
+.main_logo{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    padding: 21px;
+}
+
+.main_menu{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.main_menu > ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu > ul > li{
+    display: inline-flex;
+    align-items: center;
+}
+
+.main_menu > ul > li > a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    padding: 13px 13px 13px 13px;
+    transition: 0.5s;
+}
+
+.main_menu > ul > li > a:hover{
+    color: #C18129;
+}
+
+
+
+
+.main_banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../resource/syrup/12.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_banner > p{
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    padding: 300px 0 300px 0;
+    margin: 0px;
+}
+
+
+
+
+.syrup_banner{
+    display: flex;
+    margin: 100px 180px 30px 180px;
+}
+
+.main_text{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    margin: 0 40px 0 0;
+}
+
+.main_text_1{
+    font-size: 20px;
+    color: #4f555a;
+    text-align: left;
+}
+
+.main_text_1 > p{
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+
+.main_text_1 > p > a{
+    text-decoration: none;
+    color: #C18129;
+    transition: 0.5s;
+}
+
+.main_text_1 > p > a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.ingredients_img{
+    width: 70%;
+}
+
+.ingredients_img > img{
+    width: 100%;
+    height: auto;
+}
+
+.syrup_img{
+    width: 45%;
+}
+
+.syrup_img > img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.syrup_table{
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto 0 auto;
+    padding: 50px 10% 50px 15%;
+    background-color: #C181292E;
+}
+
+.syrup_label{
+    display: flex;
+    justify-content: center;
+}
+
+.syrup_label > p{
+    color: #C18129;
+    font-size: 25px;
+}
+
+.syrup_list{
+    display: flex;
+    justify-content: center;
+}
+
+.syrup_list > ul{
+    list-style-type: disc;
+    padding: 40px 0 0 0;
+}
+
+.syrup_list > ul > li{
+    font-size: 20px;
+    color: #4f555a;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+}
+
+.syrup_list_img{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.syrup_list_img > img{
+    width: 85%;
+    height: auto;
+}
+
+
+
+
+footer{
+    display: flex;
+    flex: 1 1 auto;
+    background-image: url(../resource/main/image12.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+}
+
+.footer_logo{
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 150px;
+}
+
+.address{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.address > p{
+    margin: 0 0 10px 0;
+}
+
+.address_text{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.address_text > p{
+    margin: 0px;
+}
