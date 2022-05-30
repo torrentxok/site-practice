@@ -366,12 +366,12 @@ body{
     padding: 31px 45px 31px 45px;
 }
 
-.date_syrup:hover{
+/* .date_syrup:hover{
     animation: anim_hover;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
-}
+} */
 
 .date_syrup_img{
     display: block;
@@ -678,7 +678,12 @@ footer{
     }
 
     .dates_img{
-        width: 320px;
+        max-width: 320px;
         height: auto;
+    }
+
+    .date_syrup{
+        width: 90%;
+        padding: 31px 8px 31px 8px;
     }
 }
