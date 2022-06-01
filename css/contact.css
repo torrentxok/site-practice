@@ -370,6 +370,10 @@ main{
 
 
 
+    .catalog_img{
+        display: none;
+    }
+
 
 
     .footer_container{
